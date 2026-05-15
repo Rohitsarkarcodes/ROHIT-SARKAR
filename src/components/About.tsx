@@ -22,7 +22,7 @@ export default function About() {
           >
             <div className="relative z-10 rounded-2xl overflow-hidden glow-border aspect-square">
               <img
-                src="Human Brain And Electric Cheap Creative Art Design Backgrounds _ JPG Free Download - Pikbest.jpeg"
+                src="/brain-bg.jpeg"
                 alt="AI Neural Network"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
