@@ -10,6 +10,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
+import ClientProjects from "./components/ClientProjects";
 import Features from "./components/Features";
 import Testimonials from "./components/Testimonials";
 import TechStack from "./components/TechStack";
@@ -17,7 +18,6 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ThreeScene from "./components/ThreeScene";
 import CustomCursor from "./components/CustomCursor";
-import ScientificOverlay from "./components/ScientificOverlay";
 
 export default function App() {
   useEffect(() => {
@@ -35,7 +35,6 @@ export default function App() {
         {/* Background Systems */}
         <ThreeScene />
         <CustomCursor />
-        <ScientificOverlay />
         <div className="grid-background" />
         <div className="noise-overlay" />
         
@@ -49,6 +48,7 @@ export default function App() {
             <About />
             <Services />
             <Projects />
+            <ClientProjects />
             <Features />
             <TechStack />
             <Testimonials />

@@ -4,22 +4,6 @@ import { ArrowDown, Bot, Sparkles, Zap } from "lucide-react";
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-20 px-6 overflow-hidden">
-      {/* Scientific Technical Data Overlays */}
-      <div className="absolute inset-x-0 top-32 pointer-events-none container mx-auto px-12 flex justify-between items-start opacity-30 h-0 z-0">
-        <div className="font-mono text-[8px] space-y-1">
-          <div className="text-neon-cyan">[BOOT_SEQUENCE_V2.4]</div>
-          <div>CPU_THREAD_STABLE: 0x8FA4</div>
-          <div>MEM_ALLOC: 4096GB/EXA</div>
-          <div className="text-white/20">{" >> "} INITIALIZING_AEGIS_CORE...</div>
-        </div>
-        <div className="text-right font-mono text-[8px] space-y-1">
-          <div className="text-neon-cyan">LATITUDE: 22.5726° N</div>
-          <div>LONGITUDE: 88.3639° E</div>
-          <div>TIME_SYNC_STABLE</div>
-          <div className="text-white/20">{" >> "} PROTOCOL_ESTABLISHED</div>
-        </div>
-      </div>
-
       {/* HUD Overlays */}
       <div className="absolute inset-0 pointer-events-none container mx-auto">
         <motion.div

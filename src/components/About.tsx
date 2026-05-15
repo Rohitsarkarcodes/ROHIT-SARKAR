@@ -5,7 +5,7 @@ const stats = [
   { label: "Projects Completed", value: "50+" },
   { label: "Happy Clients", value: "30+" },
   { label: "AI Systems Built", value: "12" },
-  { label: "Coffee Consumed", value: "∞" },
+  { label: "Water Consumed", value: "∞" },
 ];
 
 export default function About() {
@@ -22,9 +22,9 @@ export default function About() {
           >
             <div className="relative z-10 rounded-2xl overflow-hidden glow-border aspect-square">
               <img
-                src="/brain-bg.jpeg"
+                src="MAIN PIC.jpeg"
                 alt="AI Neural Network"
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-cover transition-all duration-700"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-matte-black/80 to-transparent" />
@@ -47,14 +47,7 @@ export default function About() {
                   <div className="w-2 h-2 rounded-full bg-neon-cyan shadow-[0_0_10px_#00F0FF]" />
                 </div>
                 <div>
-                  <motion.div 
-                    animate={{ opacity: [0.4, 1, 0.4] }}
-                    transition={{ duration: 1.5, repeat: Infinity }}
-                    className="text-[10px] font-mono text-neon-cyan uppercase tracking-tighter"
-                  >
-                    Neural_Link_Scanning...
-                  </motion.div>
-                  <div className="text-sm font-bold tracking-tight text-white/90">AUTH_SUCCESS</div>
+                  <div className="text-sm font-bold tracking-tight text-white/90">ROHIT SARKAR</div>
                 </div>
               </div>
               <div className="absolute bottom-0 left-0 w-full h-0.5 bg-white/5">
@@ -93,7 +86,7 @@ export default function About() {
                 <MapPin className="text-neon-cyan mt-1" size={20} />
                 <div>
                   <div className="text-xs text-white/40 uppercase font-mono tracking-wider">Location</div>
-                  <div className="text-sm font-medium">West Bengal, India</div>
+                  <div className="text-sm font-medium">Raiganj, West Bengal, India</div>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
