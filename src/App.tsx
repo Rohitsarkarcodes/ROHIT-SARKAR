@@ -3,7 +3,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { AnimatePresence } from "motion/react";
 import SmoothScroll from "./components/SmoothScroll";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -18,8 +19,11 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ThreeScene from "./components/ThreeScene";
 import CustomCursor from "./components/CustomCursor";
+import Loader from "./components/Loader";
 
 export default function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
   useEffect(() => {
     // Console Branding
     console.log(
@@ -29,36 +33,53 @@ export default function App() {
     );
   }, []);
 
-  return (
-    <SmoothScroll>
-      <div className="relative min-h-screen">
-        {/* Background Systems */}
-        <ThreeScene />
-        <CustomCursor />
-        <div className="grid-background" />
-        <div className="noise-overlay" />
-        
-        {/* UI Layers */}
-        <Navbar />
-        
-        <main>
-          <Hero />
-          
-          <div className="relative z-10 space-y-0">
-            <About />
-            <Services />
-            <Projects />
-            <ClientProjects />
-            <Features />
-            <TechStack />
-            <Testimonials />
-            <Contact />
-          </div>
-        </main>
+  useEffect(() => {
+    if (isLoading) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
+    return () => {
+      document.body.classList.remove("overflow-hidden");
+    };
+  }, [isLoading]);
 
-        <Footer />
-      </div>
-    </SmoothScroll>
+  return (
+    <>
+      <AnimatePresence mode="wait">
+        {isLoading && <Loader onComplete={() => setIsLoading(false)} />}
+      </AnimatePresence>
+
+      <SmoothScroll>
+        <div className="relative min-h-screen">
+          {/* Background Systems */}
+          <ThreeScene />
+          <CustomCursor />
+          <div className="grid-background" />
+          <div className="noise-overlay" />
+          
+          {/* UI Layers */}
+          <Navbar />
+          
+          <main>
+            <Hero />
+            
+            <div className="relative z-10 space-y-0">
+              <About />
+              <Services />
+              <Projects />
+              <ClientProjects />
+              <Features />
+              <TechStack />
+              <Testimonials />
+              <Contact />
+            </div>
+          </main>
+
+          <Footer />
+        </div>
+      </SmoothScroll>
+    </>
   );
 }
 
