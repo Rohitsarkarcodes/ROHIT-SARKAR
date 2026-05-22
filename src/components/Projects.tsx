@@ -40,7 +40,7 @@ const projects = [
     tags: ["React Three Fiber", "Tailwind"],
     size: "large",
     data: "ORBIT_01_NAV",
-    link: "#",
+    link: "https://project-orion-amber.vercel.app/",
   },
 ];
 
