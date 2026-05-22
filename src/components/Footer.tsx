@@ -1,5 +1,17 @@
 import { motion } from "motion/react";
-import { Cpu, Github, Linkedin, Twitter, ArrowUpRight } from "lucide-react";
+import { Cpu, Github, Linkedin, ArrowUpRight } from "lucide-react";
+
+const XIcon = ({ size = 18 }: { size?: number }) => (
+  <svg
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    width={size}
+    height={size}
+    role="img"
+  >
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+  </svg>
+);
 
 export default function Footer() {
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
@@ -21,12 +33,19 @@ export default function Footer() {
               Pioneering the web of tomorrow through engineering excellence and artistic audacity. Operating at the frontier of AI and human experience.
             </p>
             <div className="flex gap-4">
-              {[Github, Linkedin, Twitter].map((Icon, i) => (
+              {[
+                { Icon: Github, href: "https://github.com/roh03-maker", label: "GitHub" },
+                { Icon: Linkedin, href: "https://www.linkedin.com/in/rohit-sarkar-3a91423b8", label: "LinkedIn" },
+                { Icon: XIcon, href: "https://x.com/rrrohittt_3", label: "X" }
+              ].map(({ Icon, href, label }, i) => (
                 <motion.a
                   key={i}
-                  href="#"
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ y: -3, color: "#00F0FF" }}
                   className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-white/30 transition-all"
+                  title={label}
                 >
                   <Icon size={18} />
                 </motion.a>

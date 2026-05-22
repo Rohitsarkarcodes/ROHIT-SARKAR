@@ -1,7 +1,18 @@
 import { motion, AnimatePresence } from "motion/react";
 import { useState, useEffect } from "react";
-import { Menu, X, Cpu, Github, Linkedin, Twitter } from "lucide-react";
+import { Menu, X, Cpu, Github, Linkedin } from "lucide-react";
 import { cn } from "@/src/lib/utils";
+
+const XBrandIcon = ({ className }: { className?: string }) => (
+  <svg
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    className={className}
+    role="img"
+  >
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+  </svg>
+);
 
 const navLinks = [
   { name: "About", href: "#about" },
@@ -90,9 +101,15 @@ export default function Navbar() {
                 </a>
               ))}
               <div className="flex gap-4 pt-4">
-                <Github className="w-6 h-6 text-white/40 hover:text-neon-cyan transition-colors" />
-                <Linkedin className="w-6 h-6 text-white/40 hover:text-neon-cyan transition-colors" />
-                <Twitter className="w-6 h-6 text-white/40 hover:text-neon-cyan transition-colors" />
+                <a href="https://github.com/roh03-maker" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                  <Github className="w-6 h-6 text-white/40 hover:text-neon-cyan transition-colors" />
+                </a>
+                <a href="https://www.linkedin.com/in/rohit-sarkar-3a91423b8" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                  <Linkedin className="w-6 h-6 text-white/40 hover:text-neon-cyan transition-colors" />
+                </a>
+                <a href="https://x.com/rrrohittt_3" target="_blank" rel="noopener noreferrer" aria-label="X">
+                  <XBrandIcon className="w-6 h-6 text-white/40 hover:text-neon-cyan transition-colors" />
+                </a>
               </div>
             </div>
           </motion.div>
