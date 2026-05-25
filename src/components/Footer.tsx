@@ -35,7 +35,7 @@ export default function Footer() {
             <div className="flex gap-4">
               {[
                 { Icon: Github, href: "https://github.com/roh03-maker", label: "GitHub" },
-                { Icon: Linkedin, href: "https://www.linkedin.com/in/rohit-sarkar-3a91423b8", label: "LinkedIn" },
+                { Icon: Linkedin, href: "https://www.linkedin.com/in/rohit-sarkar-rs03/", label: "LinkedIn" },
                 { Icon: XIcon, href: "https://x.com/rrrohittt_3", label: "X" }
               ].map(({ Icon, href, label }, i) => (
                 <motion.a

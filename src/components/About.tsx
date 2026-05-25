@@ -76,7 +76,7 @@ export default function About() {
                 <span className="text-neon-cyan">Digital Existence</span>
               </h2>
               <p className="text-white/60 leading-relaxed max-w-xl text-lg">
-                I am Rohit Sarkar, a West Bengal-based developer obsessed with the intersection of aesthetics and intelligence. 
+                Hi, I'm Rohit Sarkar, a Sanskrit Honours student from Raiganj University crafting futuristic digital experiences. A West Bengal-based developer obsessed with the intersection of aesthetics and intelligence. 
                 I don't just build websites; I craft digital ecosystems that breathe, learn, and captivate.
               </p>
             </div>
