@@ -20,7 +20,7 @@ I believe learning becomes more powerful when ideas are turned into practical pr
 
 A futuristic AI-inspired voice assistant built inside a website environment with interactive conversation and modern UI concepts.
 
-🔗 Live Demo: [ Add Your Website Link Here ]
+🔗 Live Demo: [https://aegis-2-0-seven.vercel.app/]
 🔗 GitHub Repository: [ Add GitHub Repo Link Here ]
 
 ---
