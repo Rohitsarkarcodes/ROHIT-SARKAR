@@ -1,10 +1,10 @@
-# 🌐 Rohit Sarkar - Personal Website
+# Rohit Sarkar - Personal Website
 
 A personal portfolio website created to showcase my projects, learning journey, creativity, and passion for modern web development and technology.
 
 ---
 
-# 👨‍💻 About Me
+#  About Me
 
 Hi, I'm Rohit Sarkar, a student from Raiganj University exploring Web Development and Data Analytics through hands-on projects and continuous learning.
 
