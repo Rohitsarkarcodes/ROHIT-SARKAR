@@ -101,7 +101,7 @@ export default function Navbar() {
                 </a>
               ))}
               <div className="flex gap-4 pt-4">
-                <a href="https://github.com/roh03-maker" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href="https://github.com/Rohitsarkarcodes" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <Github className="w-6 h-6 text-white/40 hover:text-neon-cyan transition-colors" />
                 </a>
                 <a href="https://www.linkedin.com/in/rohit-sarkar-rs03/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
