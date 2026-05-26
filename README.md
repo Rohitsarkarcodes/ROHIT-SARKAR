@@ -12,6 +12,13 @@ I enjoy building modern websites, experimenting with UI design, and creating int
 
 I believe learning becomes more powerful when ideas are turned into practical projects. Most of my projects are built while learning, experimenting, making mistakes, and improving through experience.
 
+## Personal Portfolio Website
+
+A modern portfolio website created to showcase my profile, skills, and projects.
+
+🔗 Live Demo: https://rohit-sarkar-3dja.vercel.app/ 
+🔗 GitHub Repository: https://github.com/ROH03-maker/ROHIT-SARKAR.git 
+
 ---
 
 # 🚀 Projects
@@ -22,15 +29,6 @@ A futuristic AI-inspired voice assistant built inside a website environment with
 
 🔗 Live Demo: https://aegis-2-0-seven.vercel.app/
 🔗 GitHub Repository: https://github.com/ROH03-maker/AEGIS 
-
----
-
-## 2. Personal Portfolio Website
-
-A modern portfolio website created to showcase my profile, skills, and projects.
-
-🔗 Live Demo: https://rohit-sarkar-3dja.vercel.app/ 
-🔗 GitHub Repository: https://github.com/ROH03-maker/ROHIT-SARKAR.git 
 
 ---
 
