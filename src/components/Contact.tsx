@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "motion/react";
-import { Send, MessageSquare, Shield, MessageCircle, RefreshCw, Instagram } from "lucide-react";
+import { Send, MessageSquare, Shield, MessageCircle, RefreshCw } from "lucide-react";
 
 export default function Contact() {
   const [whatsappMessage, setWhatsappMessage] = useState("");
@@ -152,27 +152,6 @@ export default function Contact() {
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none border-2 border-white/5 rounded-3xl" />
           </motion.div>
         </div>
-
-        {/* Instantly Accessible Centered Instagram Connection Block */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          className="mt-16 flex flex-col items-center justify-center border-t border-white/5 pt-12"
-        >
-          <motion.a
-            href="https://www.instagram.com/rrrohittt_3/"
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{ scale: 1.1, rotate: 8 }}
-            whileTap={{ scale: 0.95 }}
-            className="w-14 h-14 rounded-full border border-pink-500/30 bg-pink-500/10 hover:bg-gradient-to-tr hover:from-pink-500 hover:to-purple-600 hover:border-transparent flex items-center justify-center text-pink-500 hover:text-white hover:shadow-[0_0_25px_rgba(236,72,153,0.45)] transition-all duration-300 select-none cursor-pointer"
-            title="Follow Rohit on Instagram"
-          >
-            <Instagram size={24} />
-          </motion.a>
-        </motion.div>
       </div>
     </section>
   );

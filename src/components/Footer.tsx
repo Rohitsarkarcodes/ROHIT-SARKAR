@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Cpu, Github, Linkedin, ArrowUpRight } from "lucide-react";
+import { Cpu, Github, Linkedin, ArrowUpRight, Instagram } from "lucide-react";
 
 const XIcon = ({ size = 18 }: { size?: number }) => (
   <svg
@@ -34,17 +34,38 @@ export default function Footer() {
             </p>
             <div className="flex gap-4">
               {[
-                { Icon: Github, href: "https://github.com/Rohitsarkarcodes", label: "GitHub" },
-                { Icon: Linkedin, href: "https://www.linkedin.com/in/rohit-sarkar-rs03/", label: "LinkedIn" },
-                { Icon: XIcon, href: "https://x.com/rrrohittt_3", label: "X" }
-              ].map(({ Icon, href, label }, i) => (
+                { 
+                  Icon: Github, 
+                  href: "https://github.com/Rohitsarkarcodes", 
+                  label: "GitHub",
+                  hoverStyle: { color: "#000000", backgroundColor: "#ffffff", borderColor: "#ffffff" }
+                },
+                { 
+                  Icon: Linkedin, 
+                  href: "https://www.linkedin.com/in/rohit-sarkar-rs03/", 
+                  label: "LinkedIn",
+                  hoverStyle: { color: "#00F0FF", borderColor: "#00F0FF", boxShadow: "0px 0px 15px rgba(0, 240, 255, 0.4)" }
+                },
+                { 
+                  Icon: XIcon, 
+                  href: "https://x.com/rrrohittt_3", 
+                  label: "X",
+                  hoverStyle: { color: "#000000", backgroundColor: "#ffffff", borderColor: "#ffffff" }
+                },
+                { 
+                  Icon: Instagram, 
+                  href: "https://www.instagram.com/rrrohittt_3/", 
+                  label: "Instagram",
+                  hoverStyle: { color: "#FF3366", borderColor: "#FF3366", boxShadow: "0px 0px 15px rgba(255, 51, 102, 0.4)" }
+                }
+              ].map(({ Icon, href, label, hoverStyle }, i) => (
                 <motion.a
                   key={i}
                   href={href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  whileHover={{ y: -3, color: "#00F0FF" }}
-                  className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-white/30 transition-all"
+                  whileHover={{ y: -3, ...hoverStyle }}
+                  className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-white/30 transition-all duration-300"
                   title={label}
                 >
                   <Icon size={18} />

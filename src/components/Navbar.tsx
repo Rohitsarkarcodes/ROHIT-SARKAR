@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "motion/react";
 import { useState, useEffect } from "react";
-import { Menu, X, Cpu, Github, Linkedin } from "lucide-react";
+import { Menu, X, Cpu, Github, Linkedin, Instagram } from "lucide-react";
 import { cn } from "@/src/lib/utils";
 
 const XBrandIcon = ({ className }: { className?: string }) => (
@@ -102,13 +102,16 @@ export default function Navbar() {
               ))}
               <div className="flex gap-4 pt-4">
                 <a href="https://github.com/Rohitsarkarcodes" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                  <Github className="w-6 h-6 text-white/40 hover:text-neon-cyan transition-colors" />
+                  <Github className="w-6 h-6 text-white/40 hover:text-white transition-colors" />
                 </a>
                 <a href="https://www.linkedin.com/in/rohit-sarkar-rs03/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <Linkedin className="w-6 h-6 text-white/40 hover:text-neon-cyan transition-colors" />
                 </a>
                 <a href="https://x.com/rrrohittt_3" target="_blank" rel="noopener noreferrer" aria-label="X">
-                  <XBrandIcon className="w-6 h-6 text-white/40 hover:text-neon-cyan transition-colors" />
+                  <XBrandIcon className="w-6 h-6 text-white/40 hover:text-white transition-colors" />
+                </a>
+                <a href="https://www.instagram.com/rrrohittt_3/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                  <Instagram className="w-6 h-6 text-white/40 hover:text-pink-500 transition-colors" />
                 </a>
               </div>
             </div>

@@ -1,79 +1,20 @@
-# 🌐 Rohit Sarkar - Personal Website
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-A personal portfolio website created to showcase my projects, learning journey, creativity, and passion for modern web development and technology.
+# Run and deploy your AI Studio app
 
----
+This contains everything you need to run your app locally.
 
-# 👨‍💻 About Me
+View your app in AI Studio: https://ai.studio/apps/29f9afa4-a525-493b-9bbf-606d363d3cd2
 
-Hi, I'm Rohit Sarkar, a student from Raiganj University exploring Web Development and Data Analytics through hands-on projects and continuous learning.
+## Run Locally
 
-I enjoy building modern websites, experimenting with UI design, and creating interactive digital experiences. My goal is to improve my skills step by step, work on real-world projects, and grow into a skilled developer in the future.
+**Prerequisites:**  Node.js
 
-I believe learning becomes more powerful when ideas are turned into practical projects. Most of my projects are built while learning, experimenting, making mistakes, and improving through experience.
 
----
-
-# 🚀 Projects
-
-## 1. AEGIS – Futuristic Web-Based Voice Assistant
-
-A futuristic AI-inspired voice assistant built inside a website environment with interactive conversation and modern UI concepts.
-
-🔗 Live Demo: [ Add Your Website Link Here ]
-🔗 GitHub Repository: [ Add GitHub Repo Link Here ]
-
----
-
-## 2. Personal Portfolio Website
-
-A modern portfolio website created to showcase my profile, skills, and projects.
-
-🔗 Live Demo: [ Add Your Website Link Here ]
-🔗 GitHub Repository: [ Add GitHub Repo Link Here ]
-
----
-
-## 3. Responsive Landing Page
-
-A clean and responsive landing page built using frontend technologies and modern UI design concepts.
-
-🔗 Live Demo: [ Add Your Website Link Here ]
-🔗 GitHub Repository: [ Add GitHub Repo Link Here ]
-
----
-
-## 4. Mehendi & Wool Gajra Showcase Website
-
-A creative website built to showcase handmade mehendi designs and wool gajra artwork in an elegant and aesthetic way.
-
-🔗 Live Demo: [ Add Your Website Link Here ]
-🔗 GitHub Repository: [ Add GitHub Repo Link Here ]
-
----
-
-# 🛠 Skills
-
-* HTML
-* CSS
-* JavaScript
-* Responsive Web Design
-* Git & GitHub
-* Basic UI/UX Design
-* Data Analytics (Beginner)
-* Problem Solving
-
----
-
-# 📚 Currently Learning
-
-* Advanced Web Development
-* Data Analytics
-* Modern UI Design
-* AI-Assisted Development Workflows
-
----
-
-# 🎯 Goal
-
-My goal is to continue learning, building meaningful projects, and improving my skills to create modern digital experiences and real-world technology solutions.
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
