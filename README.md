@@ -38,7 +38,7 @@ A modern portfolio website created to showcase my profile, skills, and projects.
 
 A clean and responsive landing page built using frontend technologies and modern UI design concepts.
 
-🔗 Live Demo: [ Add Your Website Link Here ]
+🔗 Live Demo: [ https://anamika-roy.vercel.app/ ]
 🔗 GitHub Repository: [ Add GitHub Repo Link Here ]
 
 ---
