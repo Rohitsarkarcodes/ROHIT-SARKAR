@@ -39,7 +39,7 @@ Neural Loom is a futuristic concept-based project focused on combining creativit
 Through Neural Loom, I experimented with responsive design, interface structure, and creative frontend development while improving my practical development skills and understanding of modern web experiences
 
 🔗 Live Demo: https://neural-loom.vercel.app/
-🔗 GitHub Repository: https://github.com/ROH03-maker/NEURAL-LOOM
+🔗 GitHub Repository: https://github.com/Rohitsarkarcodes/NEURAL-LOOM
 
 ---
 
@@ -49,7 +49,7 @@ Project Orion is a modern web-based project created to explore futuristic interf
 This project helped me improve my frontend development workflow, design thinking, and practical problem-solving skills while working on responsive layouts and interactive components.
 
 🔗 Live Demo: https://project-orion-amber.vercel.app/
-🔗 GitHub Repository: https://github.com/ROH03-maker/PROJECT-ORION
+🔗 GitHub Repository: https://github.com/Rohitsarkarcodes/PROJECT-ORION
 
 ---
 
