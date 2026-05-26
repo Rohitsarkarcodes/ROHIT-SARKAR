@@ -49,7 +49,7 @@ Project Orion is a modern web-based project created to explore futuristic interf
 This project helped me improve my frontend development workflow, design thinking, and practical problem-solving skills while working on responsive layouts and interactive components.
 
 🔗 Live Demo: https://project-orion-amber.vercel.app/
-🔗 GitHub Repository: [ Add GitHub Repo Link Here ]
+🔗 GitHub Repository: https://github.com/ROH03-maker/PROJECT-ORION
 
 ---
 
