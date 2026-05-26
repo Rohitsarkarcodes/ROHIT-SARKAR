@@ -20,8 +20,8 @@ I believe learning becomes more powerful when ideas are turned into practical pr
 
 A futuristic AI-inspired voice assistant built inside a website environment with interactive conversation and modern UI concepts.
 
-🔗 Live Demo: [https://aegis-2-0-seven.vercel.app/]
-🔗 GitHub Repository: [ https://github.com/ROH03-maker/AEGIS ]
+🔗 Live Demo: https://aegis-2-0-seven.vercel.app/
+🔗 GitHub Repository: https://github.com/ROH03-maker/AEGIS 
 
 ---
 
@@ -29,8 +29,8 @@ A futuristic AI-inspired voice assistant built inside a website environment with
 
 A modern portfolio website created to showcase my profile, skills, and projects.
 
-🔗 Live Demo: [ https://rohit-sarkar-3dja.vercel.app/ ]
-🔗 GitHub Repository: [ https://github.com/ROH03-maker/ROHIT-SARKAR.git ]
+🔗 Live Demo: https://rohit-sarkar-3dja.vercel.app/ 
+🔗 GitHub Repository: https://github.com/ROH03-maker/ROHIT-SARKAR.git 
 
 ---
 
@@ -38,7 +38,7 @@ A modern portfolio website created to showcase my profile, skills, and projects.
 
 A clean and responsive landing page built using frontend technologies and modern UI design concepts.
 
-🔗 Live Demo: [ https://anamika-roy.vercel.app/ ]
+🔗 Live Demo: [ ]
 🔗 GitHub Repository: [ Add GitHub Repo Link Here ]
 
 ---
@@ -47,8 +47,8 @@ A clean and responsive landing page built using frontend technologies and modern
 
 A creative website built to showcase handmade mehendi designs and wool gajra artwork in an elegant and aesthetic way.
 
-🔗 Live Demo: [ Add Your Website Link Here ]
-🔗 GitHub Repository: [ Add GitHub Repo Link Here ]
+🔗 Live Demo: https://anamika-roy.vercel.app/
+🔗 GitHub Repository: https://github.com/ROH03-maker/ANAMIKA-ROY.git 
 
 ---
 
