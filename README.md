@@ -21,7 +21,7 @@ A modern portfolio website created to showcase my profile, skills, and projects.
 
 ---
 
-# 🚀 Projects
+# Projects
 
 ## 1. AEGIS – Futuristic Web-Based Voice Assistant
 
@@ -62,7 +62,7 @@ A creative website built to showcase handmade mehendi designs and wool gajra art
 
 ---
 
-# 🛠 Skills
+# Skills
 
 * HTML
 * CSS
@@ -75,7 +75,7 @@ A creative website built to showcase handmade mehendi designs and wool gajra art
 
 ---
 
-# 📚 Currently Learning
+# Currently Learning
 
 * Advanced Web Development
 * Data Analytics
@@ -84,6 +84,6 @@ A creative website built to showcase handmade mehendi designs and wool gajra art
 
 ---
 
-# 🎯 Goal
+# Goal
 
 My goal is to continue learning, building meaningful projects, and improving my skills to create modern digital experiences and real-world technology solutions.
