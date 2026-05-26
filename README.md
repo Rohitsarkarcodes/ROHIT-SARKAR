@@ -32,9 +32,11 @@ A futuristic AI-inspired voice assistant built inside a website environment with
 
 ---
 
-## 3. Responsive Landing Page
+## 2. Neural Loom
 
-A clean and responsive landing page built using frontend technologies and modern UI design concepts.
+Neural Loom is a futuristic concept-based project focused on combining creativity, modern UI design, and intelligent digital interaction into a unique web experience. The project explores visually immersive layouts, interactive elements, and next-generation design concepts inspired by AI-driven systems and modern technology aesthetics.
+
+Through Neural Loom, I experimented with responsive design, interface structure, and creative frontend development while improving my practical development skills and understanding of modern web experiences
 
 🔗 Live Demo: [ ]
 🔗 GitHub Repository: [ Add GitHub Repo Link Here ]
