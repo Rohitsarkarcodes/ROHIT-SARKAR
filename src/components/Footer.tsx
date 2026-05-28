@@ -74,24 +74,26 @@ export default function Footer() {
             </div>
           </div>
 
-          <div>
-            <h4 className="text-white font-display font-bold mb-6 text-sm uppercase tracking-widest">Navigation</h4>
-            <ul className="space-y-4 font-mono text-[11px] text-white/40 uppercase tracking-widest">
-              <li><a href="#about" className="hover:text-neon-cyan transition-colors">About Core</a></li>
-              <li><a href="#services" className="hover:text-neon-cyan transition-colors">Systems</a></li>
-              <li><a href="#projects" className="hover:text-neon-cyan transition-colors">Archives</a></li>
-              <li><a href="#contact" className="hover:text-neon-cyan transition-colors">Initialize</a></li>
-            </ul>
-          </div>
+          <div className="grid grid-cols-2 gap-8 sm:gap-12 md:col-span-2">
+            <div>
+              <h4 className="text-white font-display font-bold mb-4 md:mb-6 text-xs sm:text-sm uppercase tracking-widest">Navigation</h4>
+              <ul className="space-y-3 font-mono text-[10px] md:text-[11px] text-white/40 uppercase tracking-widest">
+                <li><a href="#about" className="hover:text-neon-cyan transition-colors">About Core</a></li>
+                <li><a href="#services" className="hover:text-neon-cyan transition-colors">Systems</a></li>
+                <li><a href="#projects" className="hover:text-neon-cyan transition-colors">Archives</a></li>
+                <li><a href="#contact" className="hover:text-neon-cyan transition-colors">Initialize</a></li>
+              </ul>
+            </div>
 
-          <div>
-            <h4 className="text-white font-display font-bold mb-6 text-sm uppercase tracking-widest">Legal / Identity</h4>
-            <ul className="space-y-4 font-mono text-[11px] text-white/40 uppercase tracking-widest">
-              <li><span className="opacity-50">EST: 2024</span></li>
-              <li><span className="opacity-50">LOC: WB_IN</span></li>
-              <li><a href="#" className="hover:text-neon-cyan transition-colors">Privacy Protocal</a></li>
-              <li><a href="#" className="hover:text-neon-cyan transition-colors">Terms of Service</a></li>
-            </ul>
+            <div>
+              <h4 className="text-white font-display font-bold mb-4 md:mb-6 text-xs sm:text-sm uppercase tracking-widest">Legal / Identity</h4>
+              <ul className="space-y-3 font-mono text-[10px] md:text-[11px] text-white/40 uppercase tracking-widest">
+                <li><span className="opacity-50">EST: 2024</span></li>
+                <li><span className="opacity-50">LOC: WB_IN</span></li>
+                <li><a href="#" className="hover:text-neon-cyan transition-colors">Privacy Protocol</a></li>
+                <li><a href="#" className="hover:text-neon-cyan transition-colors">Terms of Service</a></li>
+              </ul>
+            </div>
           </div>
         </div>
 

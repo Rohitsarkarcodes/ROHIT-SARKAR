@@ -71,14 +71,26 @@ export default function About() {
               >
                 Visionary Developer
               </motion.div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              <motion.h2
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
+                className="text-4xl md:text-5xl font-bold mb-6"
+              >
                 Pushing the boundaries of <br />
                 <span className="text-neon-cyan">Digital Existence</span>
-              </h2>
-              <p className="text-white/60 leading-relaxed max-w-xl text-lg">
+              </motion.h2>
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, delay: 0.15, ease: "easeOut" }}
+                className="text-white/60 leading-relaxed max-w-xl text-lg"
+              >
                 Hi, I'm Rohit Sarkar, a Sanskrit Honours student from Raiganj University crafting futuristic digital experiences. A West Bengal-based developer obsessed with the intersection of aesthetics and intelligence. 
                 I don't just build websites; I craft digital ecosystems that breathe, learn, and captivate.
-              </p>
+              </motion.p>
             </div>
 
             <div className="grid grid-cols-2 gap-6">

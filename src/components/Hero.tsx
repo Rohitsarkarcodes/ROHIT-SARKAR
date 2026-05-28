@@ -1,7 +1,26 @@
+import { useState, useEffect } from "react";
 import { motion } from "motion/react";
 import { ArrowDown, Bot, Sparkles, Zap } from "lucide-react";
 
 export default function Hero() {
+  const fullText = "Designing next-generation digital experiences that feel fast, immersive, intelligent, and unforgettable.";
+  const [typedText, setTypedText] = useState("");
+  const [isComplete, setIsComplete] = useState(false);
+
+  useEffect(() => {
+    let currentIndex = 0;
+    const interval = setInterval(() => {
+      if (currentIndex < fullText.length) {
+        setTypedText(fullText.slice(0, currentIndex + 1));
+        currentIndex++;
+      } else {
+        clearInterval(interval);
+        setIsComplete(true);
+      }
+    }, 45); // Fine-tuned typewriter speed to be smooth and natural
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-20 px-6 overflow-hidden">
       {/* HUD Overlays */}
@@ -40,19 +59,23 @@ export default function Hero() {
           </span>
         </motion.h1>
 
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 0.5 }}
-          className="text-lg md:text-xl font-light text-white/60 max-w-lg mx-auto leading-relaxed border-l-2 border-white/10 pl-6 mb-12"
+        <p
+          className="text-lg md:text-xl font-light text-white/60 max-w-lg mx-auto leading-relaxed border-l-2 border-white/10 pl-6 mb-12 min-h-[84px] md:min-h-[64px] text-left"
         >
-          Designing next-generation digital experiences that feel fast, immersive, intelligent, and unforgettable.
-        </motion.p>
+          {typedText}
+          {!isComplete && (
+            <span className="inline-block w-[3px] h-4 bg-neon-cyan ml-1 animate-pulse align-middle" />
+          )}
+        </p>
 
         <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5, delay: 0.8 }}
+          initial={{ opacity: 0, scale: 0.95, y: 15 }}
+          animate={{ 
+            opacity: isComplete ? 1 : 0, 
+            scale: isComplete ? 1 : 0.95,
+            y: isComplete ? 0 : 15 
+          }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
           className="flex flex-col sm:flex-row items-center justify-center gap-6"
         >
           <a href="#projects" className="futuristic-btn bg-white text-black hover:bg-neon-cyan hover:text-black border-transparent scale-110">
@@ -65,8 +88,15 @@ export default function Hero() {
       </div>
 
       <motion.div
-        animate={{ y: [0, 10, 0] }}
-        transition={{ duration: 2, repeat: Infinity }}
+        initial={{ opacity: 0 }}
+        animate={{ 
+          opacity: isComplete ? 0.2 : 0,
+          y: isComplete ? [0, 10, 0] : 0
+        }}
+        transition={{ 
+          opacity: { duration: 0.8 },
+          y: { duration: 2, repeat: Infinity, ease: "easeInOut" }
+        }}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/20"
       >
         <ArrowDown size={32} />
